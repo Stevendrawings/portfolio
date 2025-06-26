@@ -4,15 +4,17 @@ body {
 }
 
 .header {
-	padding: 20px O; 
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	background-color: #fff;
-	border-bottom: 1px solid #ccc;
-	margin : 0 50px;
-}
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+	align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc }
+
+#nav { display: flex; }
 
 ul {
 	padding:0;
@@ -21,7 +23,8 @@ ul {
 }
 
 li {
- margin-left:2px;
+	margin-left: 2px;
+    display: inline-block
 }
 
 ul li a {
